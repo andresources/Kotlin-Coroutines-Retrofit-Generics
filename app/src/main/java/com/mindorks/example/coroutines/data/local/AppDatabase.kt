@@ -7,7 +7,6 @@ import com.mindorks.example.coroutines.data.local.entity.User
 
 @Database(entities = [User::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
-
     abstract fun userDao(): UserDao
 
 }

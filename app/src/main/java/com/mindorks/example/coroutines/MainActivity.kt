@@ -16,7 +16,6 @@ import com.mindorks.example.coroutines.learn.task.twotasks.TwoLongRunningTasksAc
 import com.mindorks.example.coroutines.learn.timeout.TimeoutActivity
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
